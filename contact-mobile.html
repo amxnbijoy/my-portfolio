@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: "Playfair Display", serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+        }
+        
+        nav {
+            width: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            position: fixed;
+            top: 0;
+            left: 0;
+            display: flex;
+            justify-content: center;
+            padding: 12px 0;
+            z-index: 1000;
+        }
+        
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 16px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #bbb;
+        }
+
+        .header {
+            font-size: 35px;
+            margin-top: 80px;
+            text-align: center;
+        }
+
+        .contact-container {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            font-size: 18px;
+            width: 90%;
+            max-width: 400px;
+            margin-top: 20px;
+        }
+
+        .contact-container p {
+            margin: 15px 0;
+        }
+
+        .contact-container a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+            font-size: 16px;
+        }
+
+        .contact-container a:hover {
+            color: #bbb;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <a href="index.html">HOME</a>
+        <a href="projects-index.html">PROJECTS</a>
+        <a href="#">CONTACT</a>
+    </nav>
+
+    <h1 class="header">Contact</h1>
+
+    <main>
+        <div class="contact-container">
+            <p><strong>WhatsApp:</strong> <a href="https://wa.me/919108063329" target="_blank">+91 9108063329</a></p>
+            <p><strong>Email:</strong> <a href="mailto:crzdprt@outlook.com">crzdprt@outlook.com</a></p>
+        </div>
+    </main>
+</body>
+</html>

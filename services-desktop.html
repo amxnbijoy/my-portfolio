@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background: url('bg1.jpg') no-repeat center center fixed;
+            background-size: cover;
+            position: relative;
+            background-color: #000;
+            color: #fff;
+            font-family: "Playfair Display", serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+            text-align: left;
+            padding-left: 50px;
+        }
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            z-index: -1;
+        }
+        nav {
+            width: 100%;
+            background: rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: right;
+            padding: 15px 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 20px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #bbb;
+        }
+        .container {
+            max-width: 900px;
+            margin-top: 0px;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0);
+            text-align: left;
+        }
+        h1 {
+            font-size: 150px;
+            margin-bottom: 20px;
+            margin-top: -40px;
+        }
+        .service {
+            text-align: left;
+            margin-bottom: 20px;
+            padding: 15px;
+            background: rgba(0, 0, 0, 0);
+            border-radius: 5px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .service h2 {
+            font-size: 30px;
+            margin-bottom: 10px;
+            color: #fff;
+        }
+        .service p {
+            font-size: 20px;
+            color: rgb(200, 200, 200);
+        }
+        .enquire-btn {
+            background-color: #000000;
+            color: rgb(255, 255, 255);
+            border: 2px solid white; /* Added border */
+            padding: 10px 15px;
+            font-size: 18px;
+            cursor: pointer;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        .enquire-btn:hover {
+        background-color: #ffffff;
+        color: #000;
+        border-color: #ddd; /* Optional: Change border color on hover */
+    }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">HOME</a>
+        <a href="projects-index.html">PROJECTS</a>
+        <a href="services-index.html">SERVICES</a>
+        <a href="contact-index.html">CONTACT</a>
+    </nav>
+    <div class="container">
+        <h1>Services</h1>
+        <div class="service">
+            <div>
+                <h2>Website Development - ₹4,999+</h2>
+                <p>Fully functional, responsive websites with free maintenance for a month.</p>
+            </div>
+            <a href="contact.html" class="enquire-btn">Enquire</a>
+        </div>
+        <div class="service">
+            <div>
+                <h2>Domain & Hosting Management - ₹999/year</h2>
+                <p>Assistance in purchasing, configuring, and managing domains.</p>
+            </div>
+            <a href="contact.html" class="enquire-btn">Enquire</a>
+        </div>
+        <div class="service">
+            <div>
+                <h2>Product & Inventory Management - ₹999/month</h2>
+                <p>Real-time stock and inventory management for businesses.</p>
+            </div>
+            <a href="contact.html" class="enquire-btn">Enquire</a>
+        </div>
+        <div class="service">
+            <div>
+                <h2>E-Commerce Management - ₹1,499/month + 3% commission</h2>
+                <p>Complete e-commerce solutions, payment integrations, and order management.</p>
+            </div>
+            <a href="contact.html" class="enquire-btn">Enquire</a>
+        </div>
+        <div class="service">
+            <div>
+                <h2>Custom Web App Development - ₹14,999+</h2>
+                <p>Full-stack applications with scalable backend solutions.</p>
+            </div>
+            <a href="contact.html" class="enquire-btn">Enquire</a>
+        </div>
+        <div class="service">
+            <div>
+                <h2>SEO & Website Optimization - ₹2,499/month</h2>
+                <p>Improve search rankings, optimize speed, and enhance user experience.</p>
+            </div>
+            <a href="contact.html" class="enquire-btn">Enquire</a>
+        </div>
+        <div class="service">
+            <div>
+                <h2>UI/UX & Graphic Design - ₹999 per design</h2>
+                <p>Custom logo, branding, and website UI/UX designs.</p>
+            </div>
+            <a href="contact.html" class="enquire-btn">Enquire</a>
+        </div>
+        <div class="service">
+            <div>
+                <h2>Social Media & Digital Marketing - ₹3,999/month</h2>
+                <p>Content creation, ad campaigns, and audience engagement strategies.</p>
+            </div>
+            <a href="contact.html" class="enquire-btn">Enquire</a>
+        </div>
+    </div>
+</body>
+</html>

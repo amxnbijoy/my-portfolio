@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background: url('bg1.jpg') no-repeat center center fixed;
+            background-size: cover;
+            position: relative;
+            background-color: #000;
+            color: #fff;
+            font-family: "Playfair Display", serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            min-height: 100vh;
+        }
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            z-index: -1;
+        }
+        nav {
+            width: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            position: fixed;
+            top: 0;
+            left: 0;
+            padding: 10px 0;
+            text-align: center;
+            z-index: 10;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 18px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #d0bb01;
+        }
+        header {
+            font-size: 40px;
+            font-weight: bold;
+            margin-top: 80px;
+        }
+        .name {
+            display: block;
+        }
+        .profile-img {
+            width: 150px;
+            height: auto;
+            border-radius: 5%;
+            margin-top: 20px;
+        }
+        .about {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 16px;
+            max-width: 90%;
+            color: rgb(200, 200, 200);
+            background: rgba(0, 0, 0, 0.5);
+            text-align: center;
+            padding: 15px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        .buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .buttons a {
+            text-decoration: none;
+            color: #fff;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-size: 18px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        .buttons a:hover {
+            background: #ffffff;
+            color: black;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <a href="index.html">HOME</a>
+        <a href="projects-index.html">PROJECTS</a>
+        <a href="services-index.html">SERVICES</a>
+        <a href="contact-index.html">CONTACT</a>
+    </nav>    
+    <header>
+        <div class="name">Aman Bijoy</div>
+    </header>
+    <main>
+        <img src="profile.jpg" alt="My Profile Picture" class="profile-img">
+        <div class="about">
+            <p>A passionate developer with over 3 years of coding experience. I specialize in Python, C, C#, Java, MySQL, React, Django, HTML, CSS, JavaScript, and Kotlin. With a strong background in graphic design and video editing, I bring a creative touch to my projects.</p>
+        </div>
+        <div class="buttons">
+            <a href="projects-index.html">VIEW PROJECTS</a>
+            <a href="contact-index.html">CONTACT</a>
+        </div>
+    </main>
+</body>
+</html>
